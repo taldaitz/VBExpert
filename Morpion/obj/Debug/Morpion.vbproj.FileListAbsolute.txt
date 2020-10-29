@@ -9,3 +9,14 @@ C:\Users\Dawan\source\repos\FormationVBInitiation\Morpion\obj\Debug\Morpion.vbpr
 C:\Users\Dawan\source\repos\FormationVBInitiation\Morpion\obj\Debug\Morpion.exe
 C:\Users\Dawan\source\repos\FormationVBInitiation\Morpion\obj\Debug\Morpion.xml
 C:\Users\Dawan\source\repos\FormationVBInitiation\Morpion\obj\Debug\Morpion.pdb
+C:\Users\Dawan\source\repos\VBExpert\Morpion\bin\Debug\Morpion.exe.config
+C:\Users\Dawan\source\repos\VBExpert\Morpion\bin\Debug\Morpion.exe
+C:\Users\Dawan\source\repos\VBExpert\Morpion\bin\Debug\Morpion.pdb
+C:\Users\Dawan\source\repos\VBExpert\Morpion\bin\Debug\Morpion.xml
+C:\Users\Dawan\source\repos\VBExpert\Morpion\obj\Debug\Morpion.vbprojAssemblyReference.cache
+C:\Users\Dawan\source\repos\VBExpert\Morpion\obj\Debug\Morpion.Resources.resources
+C:\Users\Dawan\source\repos\VBExpert\Morpion\obj\Debug\Morpion.vbproj.GenerateResource.cache
+C:\Users\Dawan\source\repos\VBExpert\Morpion\obj\Debug\Morpion.vbproj.CoreCompileInputs.cache
+C:\Users\Dawan\source\repos\VBExpert\Morpion\obj\Debug\Morpion.exe
+C:\Users\Dawan\source\repos\VBExpert\Morpion\obj\Debug\Morpion.xml
+C:\Users\Dawan\source\repos\VBExpert\Morpion\obj\Debug\Morpion.pdb
