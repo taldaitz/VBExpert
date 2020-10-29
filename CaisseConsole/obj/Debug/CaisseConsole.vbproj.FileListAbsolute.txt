@@ -1,0 +1,11 @@
+C:\Users\Dawan\source\repos\VBExpert\CaisseConsole\bin\Debug\CaisseConsole.exe.config
+C:\Users\Dawan\source\repos\VBExpert\CaisseConsole\bin\Debug\CaisseConsole.exe
+C:\Users\Dawan\source\repos\VBExpert\CaisseConsole\bin\Debug\CaisseConsole.pdb
+C:\Users\Dawan\source\repos\VBExpert\CaisseConsole\bin\Debug\CaisseConsole.xml
+C:\Users\Dawan\source\repos\VBExpert\CaisseConsole\obj\Debug\CaisseConsole.vbprojAssemblyReference.cache
+C:\Users\Dawan\source\repos\VBExpert\CaisseConsole\obj\Debug\CaisseConsole.Resources.resources
+C:\Users\Dawan\source\repos\VBExpert\CaisseConsole\obj\Debug\CaisseConsole.vbproj.GenerateResource.cache
+C:\Users\Dawan\source\repos\VBExpert\CaisseConsole\obj\Debug\CaisseConsole.vbproj.CoreCompileInputs.cache
+C:\Users\Dawan\source\repos\VBExpert\CaisseConsole\obj\Debug\CaisseConsole.exe
+C:\Users\Dawan\source\repos\VBExpert\CaisseConsole\obj\Debug\CaisseConsole.xml
+C:\Users\Dawan\source\repos\VBExpert\CaisseConsole\obj\Debug\CaisseConsole.pdb

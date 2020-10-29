@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CaisseConsole", "CaisseConsole\CaisseConsole.vbproj", "{68FCD007-E982-4605-A00D-91DDE3B48649}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68FCD007-E982-4605-A00D-91DDE3B48649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68FCD007-E982-4605-A00D-91DDE3B48649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68FCD007-E982-4605-A00D-91DDE3B48649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68FCD007-E982-4605-A00D-91DDE3B48649}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0592136E-4640-477F-9378-21A06068943C}
+	EndGlobalSection
+EndGlobal
