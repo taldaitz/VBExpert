@@ -15,18 +15,16 @@
 
             If choice = "0" Then Exit While
 
-            Dim line As IOrderLine
-
             Select Case choice
                 Case "1"
-                    line = Product.getProduct()
+                    choice = "Product"
 
                 Case "2"
-                    line = Refund.getRefund()
+                    choice = "Refund"
             End Select
 
 
-            order.addLine(line)
+            order.addLine(OrderLineFactory.getInstance(choice))
         End While
 
         Console.WriteLine("Le montant de la commande est : {0}", order.getAmount())

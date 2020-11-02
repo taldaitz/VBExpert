@@ -1,0 +1,71 @@
+﻿<Window x:Class="Caisse"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CaisseWPF"
+        mc:Ignorable="d"
+        Title="Caisse" Height="450" Width="800">
+    <DockPanel>
+        <GroupBox DockPanel.Dock="Left" Header="Informations">
+            <StackPanel>
+                <GroupBox Header="Produit" MinWidth="300">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                            <ColumnDefinition Width="2*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Column="0" Grid.Row="0">Nom</Label>
+                        <TextBox x:Name="TBProductName" Grid.Column="1" Grid.Row="0"></TextBox>
+                        <Label Grid.Column="0" Grid.Row="1">Quantité</Label>
+                        <TextBox x:Name="TBProductQty" Grid.Column="1" Grid.Row="1"></TextBox>
+                        <Label Grid.Column="0" Grid.Row="2">Prix unitaire</Label>
+                        <TextBox x:Name="TBProductUnitPrice" Grid.Column="1" Grid.Row="2"></TextBox>
+                        <Button Grid.Column="1" Grid.Row="3" Click="AddProductClick">OK</Button>
+                    </Grid>
+                    
+                    
+                    
+                </GroupBox>
+                <GroupBox Header="Avoir" Margin="0,20,0,0" >
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                            <ColumnDefinition Width="2*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Column="0" Grid.Row="0">N°</Label>
+                        <TextBox x:Name="TBRefundNumber" Grid.Column="1" Grid.Row="0"></TextBox>
+                        <Label Grid.Column="0" Grid.Row="1">Solde</Label>
+                        <TextBox x:Name="TBRefundBalance" Grid.Column="1" Grid.Row="1"></TextBox>
+                        <Button Grid.Column="1" Grid.Row="2" Click="AddRefundClick">OK</Button>
+                    </Grid>
+
+                </GroupBox>
+            </StackPanel>
+        </GroupBox>
+        <StackPanel DockPanel.Dock="Right">
+            <GroupBox  Header="Montant Total">
+                <TextBlock x:Name="cumulAmount" FontSize="66.667" FontFamily="Arial Black"/>
+            </GroupBox>
+            <GroupBox  Header="Recapitulatif">
+                <ListBox x:Name="listBoxRecap" MinHeight="300">
+                    
+                </ListBox>
+            </GroupBox>
+        </StackPanel>
+    </DockPanel>
+</Window>

@@ -1,0 +1,39 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CaisseWPF"
+        mc:Ignorable="d"
+        Title="Caisse de formation" Height="469.388" Width="790.817">
+    <Grid>
+        <GroupBox HorizontalAlignment="Left" Height="129" Margin="365,27,0,0" VerticalAlignment="Top" Width="374">
+            <TextBlock x:Name="TextBlockOrderTotal" HorizontalAlignment="Left" Height="100" Margin="13,15,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="332" FontSize="50" FontFamily="Arial Black" TextAlignment="Right">
+            120€
+            </TextBlock>
+
+        </GroupBox>
+        <GroupBox HorizontalAlignment="Left" Height="240" Margin="364,180,0,0" VerticalAlignment="Top" Width="379">
+            <ListBox x:Name="ListBoxLines" HorizontalAlignment="Left" Height="200" Margin="13,17,0,0" VerticalAlignment="Top" Width="349"/>
+        </GroupBox>
+        <Canvas HorizontalAlignment="Left" Height="388" Margin="23,27,0,0" VerticalAlignment="Top" Width="310">
+            <GroupBox Header="Produit" Height="144" Canvas.Left="12" Canvas.Top="15" Width="288">
+                <Button Content="OK" HorizontalAlignment="Left" Height="22" Margin="101,98,0,0" VerticalAlignment="Top" Width="114"/>
+            </GroupBox>
+            <GroupBox Header="Avoir" Height="181" Canvas.Left="17" Canvas.Top="194" Width="286">
+                <Button Content="OK" HorizontalAlignment="Left" Height="28" Margin="81,110,0,0" VerticalAlignment="Top" Width="134"/>
+            </GroupBox>
+            <Label Content="Nom" Height="25" Canvas.Left="30" Canvas.Top="37" Width="58"/>
+            <Label Content="Quantité" Height="25" Canvas.Left="28" Canvas.Top="68" Width="58"/>
+            <Label Content="Prix" Height="25" Canvas.Left="30" Canvas.Top="100" Width="58"/>
+            <TextBox x:Name="TexteBoxRefundNumber" Height="23" Canvas.Left="81" TextWrapping="Wrap" Canvas.Top="227" Width="199"/>
+            <TextBox x:Name="TexteBoxRefundAmount" Height="23" Canvas.Left="81" TextWrapping="Wrap" Canvas.Top="268" Width="199"/>
+            <Label Content="Numéro" Canvas.Left="30" Canvas.Top="224"/>
+            <Label Content="Solde" Canvas.Left="31" Canvas.Top="265"/>
+
+        </Canvas>
+        <TextBox x:Name="TextBoxNom" HorizontalAlignment="Left" Height="20" Margin="109,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197"/>
+        <TextBox x:Name="TextBoxQty" HorizontalAlignment="Left" Height="20" Margin="109,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197"/>
+        <TextBox x:Name="TextBoxUPrice" HorizontalAlignment="Left" Height="20" Margin="111,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197"/>
+    </Grid>
+</Window>

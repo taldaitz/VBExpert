@@ -2,9 +2,9 @@
     Implements IOrderLine
 
 
-    Private _name As String
-    Private _quantity As Integer
-    Private _unitPrice As Double
+    Protected _name As String
+    Protected _quantity As Integer
+    Protected _unitPrice As Double
 
     Public Sub New(name As String, quantity As Integer, unitPrice As Double)
         _name = name

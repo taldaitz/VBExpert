@@ -1,7 +1,7 @@
 ﻿Public Class Refund
     Implements IOrderLine
 
-    Private _balance As Double
+    Protected _balance As Double
 
     Public Sub New(balance As Double)
         _balance = balance
