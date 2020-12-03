@@ -54,6 +54,16 @@ CaisseWPF
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="T:CaisseWPF.Exemple">
+<summary>
+Exemple
+</summary>
+</member>
+<member name="M:CaisseWPF.Exemple.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
 <member name="T:CaisseWPF.Application">
 <summary>
 Application

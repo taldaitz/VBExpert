@@ -68,10 +68,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Exemple.xaml.vb">
+      <DependentUpon>Exemple.xaml</DependentUpon>
+    </Compile>
     <Compile Include="OrderWPF.vb" />
     <Compile Include="ProductWPF.vb" />
     <Compile Include="RefundWPF.vb" />
     <Page Include="Caisse.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Exemple.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

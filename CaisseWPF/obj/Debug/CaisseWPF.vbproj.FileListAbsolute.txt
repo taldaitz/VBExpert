@@ -22,3 +22,5 @@ C:\Users\Dawan\source\repos\VBExpert\CaisseWPF\bin\Debug\CaisseConsole.pdb
 C:\Users\Dawan\source\repos\VBExpert\CaisseWPF\bin\Debug\CaisseConsole.xml
 C:\Users\Dawan\source\repos\VBExpert\CaisseWPF\bin\Debug\CaisseConsole.exe.config
 C:\Users\Dawan\source\repos\VBExpert\CaisseWPF\obj\Debug\CaisseWPF.vbproj.CopyComplete
+C:\Users\Dawan\source\repos\VBExpert\CaisseWPF\obj\Debug\Exemple.g.vb
+C:\Users\Dawan\source\repos\VBExpert\CaisseWPF\obj\Debug\Exemple.baml
