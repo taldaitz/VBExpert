@@ -29,7 +29,7 @@ Public Class DBConnect
 
     End Sub
 
-    Public Shared Function GetConnection()
+    Public Shared Function GetConnection() As SqlConnection
         Dim connexion As New SqlConnection()
         connexion.ConnectionString = "Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Librairie;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"
         Return connexion

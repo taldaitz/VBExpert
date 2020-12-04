@@ -23,11 +23,17 @@
         'Console.WriteLine("Livre sauvegardé ! ")
 
 
-        Dim livres As List(Of Livre) = LivreRepository.GetAll()
+        'Dim livres As List(Of Livre) = LivreRepository.GetAll()
 
-        For Each livre As Livre In livres
-            Console.WriteLine("{0} - {1} édité chez {2}", livre.Titre, livre.NbPages, livre.Editeur)
-        Next
+        'For Each livre As Livre In livres
+        '    Console.WriteLine("{0} écrit par {3} {4} - {1} pages édité chez {2}", livre.Titre, livre.NbPages,
+        '                      livre.Editeur, livre.Auteur.Prenom, livre.Auteur.Nom)
+        'Next
+
+        Dim livre As Livre = LivreRepository.GetById(1)
+
+        Console.WriteLine("{0} écrit par {3} {4} - {1} pages édité chez {2}", livre.Titre, livre.NbPages,
+                              livre.Editeur, livre.Auteur.Prenom, livre.Auteur.Nom)
 
         Console.ReadLine()
 

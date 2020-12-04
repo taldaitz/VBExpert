@@ -10,6 +10,7 @@ Public Class Livre
     Private _datePublication As DateTime
     Private _nbPages As Integer
     Private _editeur As String
+    Private _auteur As Auteur
 
     Public Sub New(titre As String, datePublication As Date, nbPages As Integer, editeur As String)
         _titre = titre
@@ -18,13 +19,14 @@ Public Class Livre
         _editeur = editeur
     End Sub
 
-    Public Sub New(id As Integer, titre As String, description As String, datePublication As Date, nbPages As Integer, editeur As String)
+    Public Sub New(id As Integer, titre As String, description As String, datePublication As Date, nbPages As Integer, editeur As String, auteur As Auteur)
         Me.Id = id
         Me.Titre = titre
         Me.Description = description
         Me.DatePublication = datePublication
         Me.NbPages = nbPages
         Me.Editeur = editeur
+        Me.Auteur = auteur
     End Sub
 
     Public Property Id As Integer
@@ -78,6 +80,15 @@ Public Class Livre
         End Get
         Set(value As String)
             _editeur = value
+        End Set
+    End Property
+
+    Public Property Auteur As Auteur
+        Get
+            Return _auteur
+        End Get
+        Set(value As Auteur)
+            _auteur = value
         End Set
     End Property
 

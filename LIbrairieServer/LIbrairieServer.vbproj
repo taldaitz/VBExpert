@@ -69,6 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Auteur.vb" />
     <Compile Include="DBConnect.vb" />
     <Compile Include="IDataObject.vb" />
     <Compile Include="Livre.vb" />
