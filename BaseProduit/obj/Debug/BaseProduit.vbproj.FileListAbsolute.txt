@@ -1,0 +1,16 @@
+C:\Users\Dawan\source\repos\VBExpert\BaseProduit\bin\Debug\BaseProduit.exe.config
+C:\Users\Dawan\source\repos\VBExpert\BaseProduit\bin\Debug\BaseProduit.exe
+C:\Users\Dawan\source\repos\VBExpert\BaseProduit\bin\Debug\BaseProduit.pdb
+C:\Users\Dawan\source\repos\VBExpert\BaseProduit\bin\Debug\BaseProduit.xml
+C:\Users\Dawan\source\repos\VBExpert\BaseProduit\bin\Debug\EntityFramework.dll
+C:\Users\Dawan\source\repos\VBExpert\BaseProduit\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dawan\source\repos\VBExpert\BaseProduit\bin\Debug\EntityFramework.xml
+C:\Users\Dawan\source\repos\VBExpert\BaseProduit\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dawan\source\repos\VBExpert\BaseProduit\obj\Debug\BaseProduit.vbprojAssemblyReference.cache
+C:\Users\Dawan\source\repos\VBExpert\BaseProduit\obj\Debug\BaseProduit.Resources.resources
+C:\Users\Dawan\source\repos\VBExpert\BaseProduit\obj\Debug\BaseProduit.vbproj.GenerateResource.cache
+C:\Users\Dawan\source\repos\VBExpert\BaseProduit\obj\Debug\BaseProduit.vbproj.CoreCompileInputs.cache
+C:\Users\Dawan\source\repos\VBExpert\BaseProduit\obj\Debug\BaseProduit.vbproj.CopyComplete
+C:\Users\Dawan\source\repos\VBExpert\BaseProduit\obj\Debug\BaseProduit.exe
+C:\Users\Dawan\source\repos\VBExpert\BaseProduit\obj\Debug\BaseProduit.xml
+C:\Users\Dawan\source\repos\VBExpert\BaseProduit\obj\Debug\BaseProduit.pdb
