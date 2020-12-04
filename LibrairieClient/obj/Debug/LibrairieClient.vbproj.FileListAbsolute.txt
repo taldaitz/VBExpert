@@ -1,0 +1,17 @@
+C:\Users\Dawan\source\repos\VBExpert\LibrairieClient\obj\Debug\LibrairieClient.vbprojAssemblyReference.cache
+C:\Users\Dawan\source\repos\VBExpert\LibrairieClient\obj\Debug\MainWindow.g.vb
+C:\Users\Dawan\source\repos\VBExpert\LibrairieClient\obj\Debug\Application.g.vb
+C:\Users\Dawan\source\repos\VBExpert\LibrairieClient\obj\Debug\LibrairieClient_MarkupCompile.cache
+C:\Users\Dawan\source\repos\VBExpert\LibrairieClient\obj\Debug\LibrairieClient_MarkupCompile.lref
+C:\Users\Dawan\source\repos\VBExpert\LibrairieClient\bin\Debug\LibrairieClient.exe.config
+C:\Users\Dawan\source\repos\VBExpert\LibrairieClient\bin\Debug\LibrairieClient.exe
+C:\Users\Dawan\source\repos\VBExpert\LibrairieClient\bin\Debug\LibrairieClient.pdb
+C:\Users\Dawan\source\repos\VBExpert\LibrairieClient\bin\Debug\LibrairieClient.xml
+C:\Users\Dawan\source\repos\VBExpert\LibrairieClient\obj\Debug\MainWindow.baml
+C:\Users\Dawan\source\repos\VBExpert\LibrairieClient\obj\Debug\LibrairieClient.g.resources
+C:\Users\Dawan\source\repos\VBExpert\LibrairieClient\obj\Debug\LibrairieClient.Resources.resources
+C:\Users\Dawan\source\repos\VBExpert\LibrairieClient\obj\Debug\LibrairieClient.vbproj.GenerateResource.cache
+C:\Users\Dawan\source\repos\VBExpert\LibrairieClient\obj\Debug\LibrairieClient.vbproj.CoreCompileInputs.cache
+C:\Users\Dawan\source\repos\VBExpert\LibrairieClient\obj\Debug\LibrairieClient.exe
+C:\Users\Dawan\source\repos\VBExpert\LibrairieClient\obj\Debug\LibrairieClient.xml
+C:\Users\Dawan\source\repos\VBExpert\LibrairieClient\obj\Debug\LibrairieClient.pdb

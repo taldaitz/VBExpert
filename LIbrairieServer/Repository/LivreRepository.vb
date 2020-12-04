@@ -87,4 +87,39 @@ Public Class LivreRepository
 
     End Function
 
+    Public Shared Function GetNbLivreByAuteur(auteurId As Integer) As Integer
+
+        Dim nbLivre As Integer
+        Dim db As SqlConnection = DBConnect.GetConnection()
+
+        Dim query As New SqlCommand("SELECT COUNT(*) FROM Livre WHERE auteur_id = @auteurId", db)
+
+        query.Parameters.AddWithValue("@auteurId", auteurId)
+
+        Dim reader As SqlDataReader
+
+        Try
+
+            db.Open()
+
+            reader = query.ExecuteReader()
+
+            While reader.Read()
+                nbLivre = reader.GetInt32(0)
+            End While
+
+            reader.Close()
+
+        Catch ex As Exception
+            Console.WriteLine("Erreur : {0}", ex.Message)
+        Finally
+
+            db.Close()
+
+        End Try
+
+        Return nbLivre
+
+    End Function
+
 End Class

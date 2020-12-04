@@ -1,4 +1,7 @@
-﻿Public Class Auteur
+﻿Imports System.Runtime.Serialization
+
+<DataContract()>
+Public Class Auteur
 
     Private _id As Integer
     Private _nom As String
@@ -12,6 +15,7 @@
         _dateNaissance = dateNaissance
     End Sub
 
+    <DataMember()>
     Public Property Id As Integer
         Get
             Return _id
@@ -21,6 +25,7 @@
         End Set
     End Property
 
+    <DataMember()>
     Public Property Nom As String
         Get
             Return _nom
@@ -30,6 +35,7 @@
         End Set
     End Property
 
+    <DataMember()>
     Public Property Prenom As String
         Get
             Return _prenom
@@ -39,6 +45,7 @@
         End Set
     End Property
 
+    <DataMember()>
     Public Property DateNaissance As Date
         Get
             Return _dateNaissance

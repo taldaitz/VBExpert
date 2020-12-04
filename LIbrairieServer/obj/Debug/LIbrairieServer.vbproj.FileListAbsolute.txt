@@ -1,11 +1,11 @@
-C:\Users\Dawan\source\repos\VBExpert\LIbrairieServer\bin\Debug\LIbrairieServer.exe.config
-C:\Users\Dawan\source\repos\VBExpert\LIbrairieServer\bin\Debug\LIbrairieServer.exe
 C:\Users\Dawan\source\repos\VBExpert\LIbrairieServer\bin\Debug\LIbrairieServer.pdb
 C:\Users\Dawan\source\repos\VBExpert\LIbrairieServer\bin\Debug\LIbrairieServer.xml
 C:\Users\Dawan\source\repos\VBExpert\LIbrairieServer\obj\Debug\LIbrairieServer.vbprojAssemblyReference.cache
 C:\Users\Dawan\source\repos\VBExpert\LIbrairieServer\obj\Debug\LIbrairieServer.Resources.resources
 C:\Users\Dawan\source\repos\VBExpert\LIbrairieServer\obj\Debug\LIbrairieServer.vbproj.GenerateResource.cache
 C:\Users\Dawan\source\repos\VBExpert\LIbrairieServer\obj\Debug\LIbrairieServer.vbproj.CoreCompileInputs.cache
-C:\Users\Dawan\source\repos\VBExpert\LIbrairieServer\obj\Debug\LIbrairieServer.exe
 C:\Users\Dawan\source\repos\VBExpert\LIbrairieServer\obj\Debug\LIbrairieServer.xml
 C:\Users\Dawan\source\repos\VBExpert\LIbrairieServer\obj\Debug\LIbrairieServer.pdb
+C:\Users\Dawan\source\repos\VBExpert\LIbrairieServer\bin\Debug\LIbrairieServer.dll.config
+C:\Users\Dawan\source\repos\VBExpert\LIbrairieServer\bin\Debug\LIbrairieServer.dll
+C:\Users\Dawan\source\repos\VBExpert\LIbrairieServer\obj\Debug\LIbrairieServer.dll
